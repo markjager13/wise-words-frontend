@@ -69,7 +69,7 @@ function getNewQuote() {
 // Gets random quote from API
 async function getRandomQuote() {
     loading();
-    const apiUrl = 'https://wise-words-api.onrender.com/quotes/random/';
+    const apiUrl = 'https://wise-words-api.onrender.com/quotes/random';
     try {
         const response = await fetch(apiUrl);
         apiQuote = await response.json();
