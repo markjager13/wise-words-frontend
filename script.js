@@ -69,7 +69,7 @@ function getNewQuote() {
 // Gets random quote from API
 async function getRandomQuote() {
     loading();
-    const apiUrl = 'https://wise-words-api.herokuapp.com/quotes/random/';
+    const apiUrl = 'https://wise-words-api.onrender.com/quotes/random/';
     try {
         const response = await fetch(apiUrl);
         apiQuote = await response.json();
@@ -82,7 +82,7 @@ async function getRandomQuote() {
 // Gets random ancient greek quote from API
 async function getGreekQuote() {
     loading();
-    const apiUrl = 'https://wise-words-api.herokuapp.com/quotes/randomgreek/';
+    const apiUrl = 'https://wise-words-api.onrender.com/quotes/randomgreek/';
     try {
         const response = await fetch(apiUrl);
         apiQuote = await response.json();
@@ -95,7 +95,7 @@ async function getGreekQuote() {
 // Gets random latin quote from API
 async function getLatinQuote() {
     loading();
-    const apiUrl = 'https://wise-words-api.herokuapp.com/quotes/randomlatin/';
+    const apiUrl = 'https://wise-words-api.onrender.com/quotes/randomlatin/';
     try {
         const response = await fetch(apiUrl);
         apiQuote = await response.json();
@@ -108,7 +108,7 @@ async function getLatinQuote() {
 // Gets random old english quote from API
 async function getOldEngQuote() {
     loading();
-    const apiUrl = 'https://wise-words-api.herokuapp.com/quotes/randomoldeng/';
+    const apiUrl = 'https://wise-words-api.onrender.com/quotes/randomoldeng/';
     try {
         const response = await fetch(apiUrl);
         apiQuote = await response.json();
