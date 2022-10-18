@@ -90,7 +90,7 @@ body {
 }
 
 .long-quote {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 #author {
@@ -146,13 +146,13 @@ body {
 /* Attribution */
 .attribution { 
     font-size: 0.8rem; 
-    position: absolute;
-    bottom: 0;
     width: 100%;
     text-align: center;
     background-color: #323a49;
     padding: 10px;
     color: hsl(193, 38%, 86%);
+    position: fixed;
+    bottom: 0px;
 } 
 .attribution a { 
     color: #94B49F; 
@@ -166,6 +166,10 @@ body {
     }
 
     .quote-text {
-        font-size: 2.5rem;
+        font-size: 1.75rem;
+    }
+
+    #author {
+        font-size: 1.75rem;
     }
 }
