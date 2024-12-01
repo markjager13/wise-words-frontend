@@ -5,8 +5,6 @@ This project was inspired by my interest in ancient history and dead languages. 
 
 This repo is concerned with the frontend. To see the backend, click [here](https://github.com/markjager13/wise-words-api).
 
-[Live Demo](https://wise-words-app.netlify.app/)
-
 ### How I worked on this project
 * I first implemented the frontend design in HTML & CSS and ensured that it was mobile responsive.
 * I then used JavaScript fetch API to asynchronously fetch quotes from the backend. 
